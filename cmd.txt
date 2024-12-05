@@ -1,0 +1,11 @@
+javac UDPServer.java UDPClient.java
+
+java UDPServer
+
+java UDPClient
+
+sudo apt-get install tcpdump
+
+ip a
+
+sudo tcpdump -i any udp port 9876 -X
